@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
                   Container(height:double.infinity,width:double.infinity,child: Image.asset("assets/image/kbc.jpg",fit: BoxFit.fill,)),
                   Center(
                     child: Padding(
-                      padding: EdgeInsets.only(top: 660),
+                      padding: EdgeInsets.only(top: 500),
                       child: InkWell(
                         onTap: (){
                           Navigator.pushNamed(context, 'data');

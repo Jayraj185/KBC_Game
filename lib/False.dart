@@ -50,7 +50,7 @@ class _FalseState extends State<False> {
                           padding: EdgeInsets.only(top: 470,left: 30),
                           child: InkWell(
                             onTap: (){
-                              Navigator.popAndPushNamed(context, 'data',);
+                              Navigator.pop(context, 'data',);
                             },
                             child: Container(
                               height: 50,
